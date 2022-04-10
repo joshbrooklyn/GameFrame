@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -8,7 +8,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 import HelpIcon from '@mui/icons-material/Help';
 
 function PreviousGuesses(props) {
-    const dailyGame = props.dailyGame;
+    //const dailyGame = props.dailyGame;
     const guessesRemaining = props.dailyGame.game.screenshots.length - props.fields.guesses.length;
     
     let emptyGuesses = [];
