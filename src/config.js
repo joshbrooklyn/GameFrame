@@ -4,8 +4,8 @@ const dev = {
   }
   
   const prod = {
-    "DAILY_GAME_ENDPOINT": "https://gamedle.joshhowe.com/api/CurrentGame",
-    "WORDLIST_ENDPOINT": "https://gamedle.joshhowe.com/api/GameList"
+    "DAILY_GAME_ENDPOINT": "https://gameframe.joshhowe.com/api/CurrentGame",
+    "WORDLIST_ENDPOINT": "https://gameframe.joshhowe.com/api/GameList"
   }
   
   //export const config = dev;
