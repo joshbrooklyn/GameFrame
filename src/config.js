@@ -5,7 +5,7 @@ const dev = {
   
   const prod = {
     "DAILY_GAME_ENDPOINT": "https://gameframe.joshhowe.com/api/CurrentGame",
-    "WORDLIST_ENDPOINT": "https://gameframe.joshhowe.com/api/GameList"
+    "WORDLIST_ENDPOINT": "https://gameframe.joshhowe.com/api/Games"
   }
   
   //export const config = dev;
