@@ -1,0 +1,20 @@
+﻿
+#/etc/systemd/system/gameframe.service
+
+[Unit]
+Description=Wordlish API
+
+[Service]
+WorkingDirectory=/home/josh/DotNetWebServices/WordlishAPI
+ExecStart=/usr/bin/dotnet /home/josh/DotNetWebServices/WordlishAPI/WordlsWithFriendsAPI.dll --urls "https://localhost:5002/"
+Restart=always
+RestartSec=10
+SyslogIdentifier=wordlish
+User=josh
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+
+[Install]
+WantedBy=multi-user.target
+
+
