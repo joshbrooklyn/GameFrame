@@ -1,6 +1,6 @@
 const dev = {
-    "DAILY_GAME_ENDPOINT": "https://jh-desktop:5001/CurrentGame",
-    "WORDLIST_ENDPOINT": "https://jh-desktop:5001/Games"
+    "DAILY_GAME_ENDPOINT": "https://localhost:5001/CurrentGame",
+    "WORDLIST_ENDPOINT": "https://localhost:5001/Games"
   }
   
   const prod = {
